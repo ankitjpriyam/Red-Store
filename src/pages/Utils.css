@@ -1,0 +1,317 @@
+@media screen and (max-width:1200px) {
+
+
+    /* row */
+    .row-section {
+        gap: 30px;
+    }
+
+    .rleft {
+        max-width: none;
+        padding-right: 14px
+    }
+
+    .rleft h1 {
+        font-size: 2.7rem;
+    }
+
+    .rright img {
+        width: 486px;
+    }
+
+    /* companies-section */
+    .logo {
+        width: 295px
+    }
+
+    /* feature-section */
+    .card {
+        max-width: 20%;
+    }
+
+    /* companies-second- section */
+    .logoes{
+        width: 135px;
+    }
+
+
+}
+
+@media screen and (max-width:1100px) {
+
+    /* feature-section */
+    .feature-headings {
+        gap: 20px;
+    }
+    .feature-area {
+        gap: 20px;
+    }
+    .card {
+        max-width: none;
+    }
+}
+
+@media screen and (max-width:1050px) {
+
+    /* row */
+    .row-section {
+        gap: 25px;
+    }
+    .rleft h1 {
+        font-size: 2.3rem;
+    }
+    .rright img {
+        width: 440px;
+    }
+
+    /* companies-section */
+    .logo {
+        width: 255px
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    /* footer */
+    footer #img1{
+        width: 110px;
+    }
+    footer #img3{
+        width: 145px;
+    }
+}
+@media screen and (max-width:820px) {
+
+    /* footer */
+    .footer-section{
+        padding: 38px 15px;
+        gap: 12px;
+    }
+    footer #img1{
+        width: 90px;
+    }
+    footer #img3{
+        width: 138px;
+    }
+}
+@media screen and (max-width:600px) {
+
+    /* footer */
+    .footer-section{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 25px;
+    }
+    .link-column{
+        align-items: center;
+        text-align: center;
+        padding-bottom: 16px;
+    }
+    footer #img1{
+        width: 110px;
+    }
+    footer #img3{
+        width: 145px;
+    }
+    footer h5{
+        font-size: 0.8rem;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+
+    /* navbar */
+    .main {
+        flex-direction: column;
+    }
+
+    .right {
+        flex-basis: 0;
+    }
+
+    .right ul {
+        gap: 17px;
+    }
+
+    .small-text {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    /* row */
+    .row-section {
+        gap: 25px;
+    }
+
+    .rleft {
+        padding-right: 8px;
+    }
+
+    .rleft h1 {
+        font-size: 2rem;
+    }
+
+    .rright img {
+        width: 390px;
+    }
+
+    /* companies-section */
+    .logos {
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 320px;
+        padding: 10px 0;
+    }
+
+    /* example */
+    .example-area{
+        padding: 75px 16px;
+        gap: 15px;
+    }
+
+    /* companies-second- section */
+    .logoes{
+        width: 118px;
+    }
+
+}
+
+@media screen and (max-width:700px){
+
+    /* example */
+    .example-area{
+        flex-direction: column;
+        gap: 30;
+    }
+    .example-card{
+        width: 60%;
+        margin-bottom: 10px;
+    }
+
+    /* companies-second- section */
+    .logoes{
+        width: 95px;
+    }
+}
+
+
+@media screen and (max-width:750px) {
+
+    /* row */
+    .row-section {
+        flex-direction: column;
+    }
+
+    .rright img {
+        width: 400px;
+    }
+
+
+    /* features */
+    .card {
+        max-width: none;
+    }
+
+
+    /* big-feature-section */
+    .big-feature-section {
+        flex-direction: column;
+    }
+    .feature-img{
+        display: contents;
+    }
+    .feature-desc{
+        padding-top: 10px;
+    }
+    .feature-img img {
+        width: 330px;
+    }
+
+
+}
+
+@media screen and (max-width:660px) {
+
+    /* feature-section */
+    .feature-headings {
+        flex-direction: column;
+    }
+
+    .feature-area {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    /* navbar */
+    .right ul {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .small-text {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    /* companies-section */
+    .logo {
+        width: 280px;
+    }
+
+    /* feature-section */
+    .feature-header h2 {
+        font-size: 2rem;
+    }
+
+    /* big-feature-section */
+    .feature-desc p {
+        font-size: 0.8rem;
+    }
+
+    /* example */
+    .example-header h2 {
+        font-size: 2rem;
+    }
+
+    /* companies-second- section */
+    .logoes{
+        width: 80px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:550px){
+
+    /* example */
+    .example-card{
+        width: 75%;
+    }
+
+}
+
+
+@media screen and (max-width:500px){
+
+     /* big-feature-section */
+     .big-feature-section {
+        padding: 0 30px;
+    }
+    .feature-img img {
+        width: 300px;
+    }
+
+    /* companies-second- section */
+    .logoes{
+        width: 64px;
+    }
+
+}
